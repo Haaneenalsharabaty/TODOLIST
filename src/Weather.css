@@ -1,0 +1,30 @@
+.Weather {
+  padding: 1em;
+  margin: auto;
+  width: 50%;
+  background: linear-gradient(
+    rgb(233 192 194),
+    rgba(187, 171, 187, 0.7),
+    rgb(255, 255, 255, 0.9)
+  );
+  color: rgb(149 21 86);
+  border-radius: 10%;
+  height: 30em;
+}
+
+@media only screen and (max-width: 1125px) {
+  .Weather {
+    height: 20em;
+  }
+  .WeatherIcon p {
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .Weather {
+    font-size: 00.8em;
+    height: 25em;
+    margin-bottom: 2em;
+    margin: auto;
+  }
+}

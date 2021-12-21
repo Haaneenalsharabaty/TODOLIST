@@ -1,0 +1,83 @@
+.form {
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+}
+.login-form {
+  background-color: rgb(246 242 241);
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  border: palevioletred 1px dashed;
+}
+
+.sumbit {
+  background-color: rgb(237 198 199 / 49%);
+  border: none;
+  color: rgb(70, 43, 65);
+  font-weight: bold;
+  padding: 1em 5.4em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-family: "Times New Roman", Times, serif;
+
+  box-shadow: 0 0.7em 2em 0 rgba(217, 95, 233, 0.4);
+
+  border-radius: 0.3em;
+  margin: 2em 1.3em 1em 1.3em;
+}
+h2 {
+  color: #951556;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.sumbit:hover {
+  background-color: palevioletred;
+}
+
+.login,
+.password {
+  background-color: #f6f6f6;
+  border: none;
+  color: rgb(70, 43, 65);
+  padding: 1em 2.2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.1em;
+  margin: 0.3em;
+  width: 85%;
+  border: 0.3em solid #951556;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 0.3em;
+}
+
+.login,
+.password:focus {
+  background-color: #fff;
+  border-bottom: 0.3em solid #951556;
+}
+
+.login,
+.password:placeholder {
+  color: #53354a;
+}
+@media screen and (max-width: 430px) {
+  .login-form {
+    width: 100%;
+  }
+  .sumbit {
+    width: 7em;
+    height: 3em;
+    padding: 0;
+  }
+}

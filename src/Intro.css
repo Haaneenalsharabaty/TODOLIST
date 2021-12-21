@@ -1,0 +1,83 @@
+/* intro  */
+
+.Home {
+  display: grid;
+  grid-template-rows: 80% 20%;
+
+  background-color: rgb(242 234 234);
+
+  background-size: cover;
+}
+
+.text {
+  padding-top: 2em;
+  width: 70%;
+  height: 75%;
+  font-family: "Italianno", cursive;
+  color: rgb(149 21 86);
+  border-radius: 10%;
+
+  margin: auto;
+  background: linear-gradient(
+    rgb(233 192 194),
+    rgba(187, 171, 187, 0.7),
+    rgb(255, 255, 255, 0.9)
+  );
+}
+.text h1 {
+  font-size: 4em;
+
+  /* padding: 1.5em; */
+  font-weight: bolder;
+}
+.text h3 {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  letter-spacing: 0.07em;
+}
+.text p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  letter-spacing: 0.15;
+}
+@media only screen and (max-width: 426px) {
+  .Home {
+    grid-template-rows: 70%;
+  }
+  .text {
+    width: 90%;
+
+    height: 28em;
+  }
+  .text h1 {
+    font-size: 2.5em;
+  }
+  .text h3 {
+    font-size: 2em;
+  }
+  .text p {
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 281px) {
+  .text {
+    width: 90%;
+  }
+  .text h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  .text h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  .text p {
+    font-size: 1em;
+    font-weight: bold;
+  }
+  .text h2 {
+    font-size: 1em;
+  }
+}
